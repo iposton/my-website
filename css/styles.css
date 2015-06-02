@@ -1,0 +1,184 @@
+body {
+	
+	/*background:url(https://unsplash.com/photos/IClZBVw5W5A/download);*/
+	background:url("../images/bkground.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-family: helvetica;
+	margin: 0px;
+	
+	
+	
+}
+
+img {
+	
+	border:7px solid white;
+	border-radius: 20px;
+	
+	
+}
+
+.ianpeter {
+	
+	margin: 20px;
+}
+
+p {
+	
+	
+	font-size: 22px;
+	text-align: left;
+	color: white;
+	
+}
+
+article {
+   max-width: 500px;
+   padding: 20px;
+  
+   text-shadow: 1px 1px 2px #333;
+   background-color: rgba(0,0,0,.3);
+   font-family: 'Nunito', sans-serif;
+   color: white;
+   margin: 0 auto;
+ 
+   
+ }
+ 
+ h2 {
+	 
+	font-size: 27px;
+ 	font-family: 'Hammersmith One', sans-serif;
+	color: white;
+	
+	
+ }
+ 
+ h1 {
+ 	
+	 font-size: 35px;
+	font-family: 'Syncopate', sans-serif;
+	letter-spacing: .5em;
+ }
+ 
+
+ 
+ .contact a {
+ 	
+	color: #333333;
+ }
+ 
+ .aboutpeter {
+ 	
+	 border-radius: 50%;
+ }
+ 
+ .contact a:hover{
+ 	
+	 color: #2ecc71;
+	
+ }
+ 
+ .peter a  {
+ 	
+	 color: white;
+	
+	 text-decoration: none;
+ }
+ 
+ .peter a:hover  {
+ 	
+	 color: #2ecc71;
+	
+ }
+ 
+ ul {
+ 	
+	 padding: 10px;
+ }
+ 
+ li {
+ 	
+	 margin: 0 auto;
+	 display: inline;
+	 padding: 0px 10px 0px 10px;
+	  font-family: 'Nunito', sans-serif;
+ }
+ 
+
+ 
+ /*
+  * Footer
+  */
+
+ .blog-footer {
+   padding: 40px 0;
+   color: white;
+   text-align: center;
+   background-color: rgba(0,0,0,.3);
+ 
+   
+  
+ }
+ 
+ .blog-footer p {
+ 	
+	text-align: center;
+	 margin: 0 auto;
+	 font-size: 14px;
+ }
+ 
+ .blog-footer p a {
+ 	
+	color: white;
+	text-decoration: none;
+ }
+ 
+ .blog-footer p a:hover {
+ 	
+	color: #2ecc71;
+	
+ }
+
+
+ .blog-footer p:last-child {
+   margin-bottom: 0;
+ }
+ 
+ /*
+  * Responsive for smaller screens
+  */
+ 
+ @media (max-width: 500px) {
+      h1 {
+        font-size: 27px;
+        
+      }
+	  
+	  h2 {
+	  	
+		  font-size: 18px;
+	  }
+	  
+	  p {
+	  	
+		  font-size:16px;
+	  }
+      li {
+        padding: 5px;
+        display: block;
+		
+		
+      }
+	  
+	  .ianpeter {
+	  	
+		  width: 280px;
+		  height: 407px;
+	  }
+    }
+
+
+ 
